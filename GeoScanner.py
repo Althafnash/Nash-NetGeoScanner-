@@ -8,7 +8,7 @@ def sanitize_input(input_string):
 def Nmap(website_link):
     print("Eg: example.com")
     safe_link = sanitize_input(website_link)
-    command = f"sudo nmap {safe_link} -sS"
+    command = f" nmap {safe_link} -sS"
     subprocess.run(shlex.split(command))
 
 def get_location(ip, api_key):

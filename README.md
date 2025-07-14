@@ -18,7 +18,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/Althafnash/Nash-NetGeoScanner-.git
-   python nash_netgeoscanner.py
+   python GeoScanner.py
 
 Enter the website link and IP address when prompted to perform the scan and retrieve location data.
 
